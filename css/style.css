@@ -1,0 +1,647 @@
+body{
+    background-color: #fff;
+    font-family: "Open Sans" Arial, Sans-serif;
+}
+/**/
+.container{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 35px;
+}
+.top{
+    height: 80px;
+    background-color:#000;
+    width: 100%;
+}
+.logo{
+    background-image: url("../img/logo.png");
+    float: left;
+    width: 160px;
+    height: 47px;
+    margin-top:10px;
+    display: inline-block;  
+
+}
+.main-menu .login:before, .main-menu .blog:before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    right: 10px;
+    background: url("../img/icons.png") -6px -10px;
+}
+.main-menu {
+    float: right;
+}
+.main-menu ul{
+     padding-top: 20px;
+}
+.main-menu li{
+    float: left;     
+}
+.main-menu .login{
+    margin-left: 15px;    
+}
+.main-menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 14px;
+    display: block;
+    border:1px solid transparent;
+}
+.main-menu a:hover{
+    border:1px solid #ffffff;
+}
+.main-menu .blog{
+    padding: 10px 20px;
+    
+}
+.main-menu .login{
+    border:1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+
+}
+.main-menu .login:before{
+     background: url("../img/icons.png") -6px -33px;
+
+}
+.banner{
+    background: url("../img/bg.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+.block{
+    position: relative;
+    display: block;
+    padding: 95px 0 85px 310px;
+    color: #ffffff;
+}
+.block:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left:-30px;
+    display: block;
+    background: url("../img/girl.png");
+    width:309px;
+    height: 476px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow:0 1px #000000;
+}
+h3{
+    font-size: 24px;
+    text-shadow:0 1px #000000;
+    margin:10px 0 30px 0;
+}
+.topic{
+    padding-top: 70px;
+}
+.topic ul{
+    position: relative;
+    z-index: 4;
+}
+.topic form{
+    z-index: 5;
+    position: relative;
+}
+.ba-grid > *{
+    padding-left: 20px;
+    float: left;
+}
+.block li{
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    padding:9px 0 9px 48px ;
+}
+.block li:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+.block li:nth-child(1):before {
+    background: url("../img/icons.png")0 -58px;
+}
+.block li:nth-child(2):before {
+    background: url("../img/icons.png")0 -99px;
+ }
+.block li:nth-child(3):before {
+    background: url("../img/icons.png")0 -145px;
+}
+.block li:nth-child(4):before {
+    background: url("../img/icons.png")0 -180px;
+}
+.block li:nth-child(5):before {
+    background: url("../img/icons.png")0 -220px;
+}
+input{
+    width: 100%;
+    border: none;
+    margin:0;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px;
+    font-size: 18px;
+}
+input [type="password"]{
+    border: none;
+}
+.button{
+    margin:0;
+    border: none;
+    padding: 15px 40px 15px 15px;
+    background-color: #cc0000;
+    border-bottom:3px solid #ae0000;
+    box-shadow: inset 0 10px 10px rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow:0 1px #000000;
+}
+button{
+    width: 100%;
+}
+.button:hover{
+    background-color: #ae0000;
+    border-bottom:3px solid #cc0000;
+    box-shadow: inset 0 10px 10px rgba(204, 0, 0, 0.95);
+    transition: color .1s ease-in, background-color .1s ease-in, border-color .1s ease-in;
+}
+.bold{
+    font-weight: bold;
+}
+.arrow{
+    position: relative;
+}
+.arrow:after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 3px;
+    right: -20px;
+    width:10px;
+    height: 16px;
+    background: url("../img/icons-s.png") -15px 0;
+}
+.main{
+    background: url("../img/money.jpg")50% 100% no-repeat;
+    text-align: center;
+    padding:20px 0 45px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.account{
+    color: #666666;
+}
+.lock:before{
+    content: "";
+    display: block;
+    top: 5px;
+    left: 9px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background: url("../img/icons-s.png")-12px -25px;
+}
+.lock{
+    padding-left:25px;
+    color: #666666;
+    text-decoration: none;
+    position: relative;
+}
+.lock:hover{
+    color: #333333;
+    text-decoration: underline;
+}
+.big-head{
+    padding-top: 55px;
+    color: #333333;
+    text-shadow: none;
+}
+.main .big-head span{
+    display: inline-block;
+    position: relative;
+}
+.main .big-head span:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right:-25px;
+    background: url("../img/icons-s.png") -6px -46px;
+}
+.small-head{
+    padding-top: 10px;
+    color: #666666;
+    font-weight: 400;
+    text-shadow: none;
+}
+.circle:before {
+    content:"";
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.main li:nth-child(1) .circle:before{
+    width: 28px;
+    height: 25px;
+    background: url("../img/icons-s.png")-6px -83px no-repeat;
+}
+.main li:nth-child(2) .circle:before{
+    width: 28px;
+    height: 25px;
+    background: url("../img/icons-s.png")-6px -193px no-repeat;
+}
+.main li:nth-child(3) .circle:before{
+    top: 14px;
+    left: 15px;
+    width: 32px;
+    height: 32px;
+    background: url("../img/icons-s.png")-5px -114px no-repeat;
+}
+.main li:nth-child(4) .circle:before{
+    width: 29px;
+    height: 29px;
+    background: url("../img/icons-s.png")-5px -300px no-repeat;
+}
+.main li:nth-child(5) .circle:before{
+    top: 13px;
+    left: 14px;
+    width: 30px;
+    height: 28px;
+    background: url("../img/icons-s.png")-6px -155px no-repeat;
+}
+.main li:nth-child(6) .circle:before{
+    left: 13px;
+    width: 36px;
+    height: 23px;
+    background: url("../img/icons-s.png")-2px -227px no-repeat;
+}
+.circle{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: #cc0000;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main ul{
+    padding-top: 40px;
+}
+.main li{
+    position: relative;
+    text-align:left;
+    padding: 0 20px 40px 85px;
+    float: left;
+}
+.main h5{
+    font-size: 17px;
+    color: #666666;
+    display: block;
+}
+.gray{
+    color: #333333;
+}
+.main li p{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+.love{
+    text-align: center;
+    padding: 35px 0 35px 0;
+
+}
+.love .big-head span{
+    display: inline-block;
+    position: relative;
+}
+.love .big-head span:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 32px;
+    top: -10px;
+    right:-40px;
+    background: url("../img/icons-s.png") 0 -261px;
+}
+.footer-top{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(71, 71, 71, 0.8);
+}
+.footer-top h2{
+    display: block;
+    font-size: 36px;
+}
+.footer-top .button{
+    padding:18px 10px 16px 34px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+}
+.ba-width-1-3{
+    text-align: right;
+}
+footer{
+    background-color: #000000;
+    color:#ffffff;
+    font-size: 12px;
+    padding: 20px 0;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+footer li{
+    display: inline-block;
+    margin-left: 17px;
+}
+footer h6{
+    float: left;
+}
+footer nav{
+    float: right;
+}
+footer nav li a:hover{
+    color: #666666;
+    transition: color .1s ease-in, background-color .1s ease-in, border-color .1s ease-in;
+}
+@media (min-width: 1221px) {
+    .container{
+        max-width: 1220px;
+        padding: 0 35px;
+    }
+}
+@media (max-width: 1220px) {
+    .footer-top h2{
+        font-size: 32px;
+    }
+}
+@media (max-width: 960px) {
+    .top{
+        height: 100%;
+        padding-bottom: 5px;
+    }
+    .logo{
+        float: none;
+        display: block;
+        margin: 5px auto 0 auto;
+    }
+     .main-menu{
+        float: none;
+        margin: auto;
+    }
+    .main-menu ul{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .main-menu li{
+        float: none;
+        display: inline-block;
+    }
+    .main ul{
+        padding: 0 0 0 30px;
+    }
+    .block{
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+    .topic{
+        padding-top:10px;
+    }
+    .block h2{
+        font-size:  30px;
+        padding-bottom: 10px;
+    }
+    .big-head{
+        padding-top: 40px;
+    }
+    .main h5{
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .footer-top h2{
+        font-size: 25px;
+    }
+    .footer-top .button{
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .top{
+        height: 100%;
+        padding: 10px 0 10px 0;
+
+    }
+    .top ul{
+        padding-bottom: 15px;
+    }
+    .top .logo{
+       display: block;
+        float: none;
+        margin: auto;
+    }
+    .top li{
+        float: none;
+        display: inline-block;
+    }
+    .top nav{
+        float: none;
+        text-align: center;
+    }
+    .block:before{
+        content: none;
+    }
+    .block{
+        padding: 50px 0 20px 0;
+        text-align: center;
+    }
+    .block .ba-width-1-2{
+        width: 100%;
+    }
+    .block li{
+        text-align: left;
+    }
+    .topic{
+        padding-top:0;
+    }
+    .topic .ba-width-1-2{
+        padding-bottom:30px ;
+    }
+    .block h2{
+        padding-bottom:10px ;
+    }
+    .main ul li{
+        width: 100%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .big-head{
+        padding-top:15px;
+    }
+    .small-head{
+        font-size: 20px;
+    }
+    .footer-top h2{
+        font-size: 18px;
+    }
+    .footer-top .button{
+        font-size: 14px;
+        text-align: center;
+        padding: 15px;
+    }
+    .menu-toggle {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: none !important;
+        box-shadow: none !important;
+        padding: 0;
+        margin: 0;
+    }
+    #menu-toggle {
+        display: none;
+    }
+    .menu-toggle .line,
+    .menu-toggle:before,
+    .menu-toggle:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #fff;
+    }
+    .menu-toggle .line,
+    .menu-toggle:after {
+        margin-top: 6px;
+    }
+}
+@media (min-width: 480px){
+    .menu-toggle{
+        display: none;
+    }
+    #menu-toggle{
+        display: none;
+    }
+}
+@media (max-width: 479px) {
+    header .container{
+        padding-right: 25px;
+    }
+    .menu-active .menu-open{
+        position: fixed;
+        left: 50%;
+        background-color: #000;
+        z-index:10;
+        visibility: visible;
+    }
+    .overlay{
+        visibility: hidden;
+        opacity:0;
+        transition: all .4s ease-in;
+    }
+    .menu-active .overlay{
+        visibility: visible;
+        position: fixed;
+        z-index: 9;
+        background-color: rgba(255, 255, 255, 0.41);
+        opacity: 1;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
+    }
+    ul.menu-open{
+        position: fixed;
+        clear: both;
+        visibility: hidden;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 100%;
+        transition: all .4s ease-in;
+        padding-top: 13px;
+    }
+    .top{
+        padding:0;
+    }
+    .top .logo{
+        float: left;
+        margin-top: 5px;
+    }
+    .menu-toggle {
+        float: right;
+        margin-top: 20px;
+    }
+    .top .menu-open li{
+        display: block;
+        text-align: left;
+    }
+    .top .menu-open a{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .menu-open .login{
+        margin: 0;
+        border:1px solid transparent;
+    }
+    .block{
+        padding-top: 30px;
+    }
+    .block h2,  .big-head{
+        font-size: 28px;
+    }
+    .block h3, .small-head{
+        font-size: 18px;
+    }
+    .block li{
+        font-size: 22px;
+    }
+    .block li:before{
+        top: 5px;
+        left: 0;
+    }
+    .main ul{
+        padding-left: 10px;
+    }
+    .love .big-head span:before{
+        top:-18px;
+        right:-25px;
+    }
+    .footer-top{
+        padding: 20px 0 20px 0;
+    }
+    .footer-top h2,  .footer-top .button{
+        font-size: 14px;
+    }
+    footer h6, footer nav{
+        float: none;
+        text-align: center;
+    }
+    footer nav{
+        padding: 10px;
+    }
+    footer li{
+        margin-left: 5px;
+    }
+}
